@@ -1,0 +1,44 @@
+.App {
+    width: 472px;
+    height: 710px;
+    background-color: #a81e36;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+.logo {
+    max-width: 150px;
+}
+
+.display {
+    background-color: #323335;
+    color: #f2f3f3;
+    margin: 10px 0;
+    height: 100px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+/* .display > span {
+
+} */
+
+.buttons-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.buttons-container button {
+    box-shadow: 0 3px rgba(0, 0, 0, 0.5);
+    border-radius: 50px;
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+    font-size: 2rem;
+}
+
+/* .buttons-container button[name="zero"] {
+    width: 200px;
+} */
