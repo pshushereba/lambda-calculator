@@ -21,9 +21,10 @@
     justify-content: flex-end;
 }
 
-/* .display > span {
-
-} */
+.display > span {
+    margin-right: 15px;
+    font-size: 2rem;
+}
 
 .buttons-container {
     display: flex;
@@ -35,10 +36,23 @@
     border-radius: 50px;
     width: 100px;
     height: 100px;
-    margin: 5px;
-    font-size: 2rem;
+    margin: 4px;
+    color: #f2f3f3;
+    font-size: 2em;
 }
 
-/* .buttons-container button[name="zero"] {
+.specialBtn button {
+    background-color: #235c9d;
+}
+
+.opBtn button {
+    background-color: #247193;
+}
+
+.numBtn button {
+    background-color: #184378;
+}
+
+.buttons-container button[name="zero"] {
     width: 200px;
-} */
+}

@@ -22,5 +22,3 @@ const Operators = () => {
 };
 
 export default Operators;
-
-// export *
